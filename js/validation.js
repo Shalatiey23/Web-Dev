@@ -1,13 +1,16 @@
-function validateForm(){
+export function validateForm(){
   let isValide = true;
 
   const name = document.getElementById("name").value;
+  console.log("my name is ", name);
   const email = document.getElementById("email").value;
+  console.log("my email is ", email);
   const password = document.getElementById("password").value;
+  console.log("my password is ", password);
 
-  const nameError = document.getElementById("nameError").value;
-  const emailError = document.getElementById("emailError").value;
-  const passwordError = document.getElementById("passwordError").value;
+  const nameError = document.getElementById("nameError");
+  const emailError = document.getElementById("emailError");
+  const passwordError = document.getElementById("passwordError");
   
   nameError.textContent = "";
   emailError.textContent = "";
