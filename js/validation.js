@@ -5,9 +5,9 @@ function validateForm(){
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
 
-  const nameError = document.getElementById("nameError").value;
-  const emailError = document.getElementById("emailError").value;
-  const passwordError = document.getElementById("passwordError").value;
+  const nameError = document.getElementById("nameError");
+  const emailError = document.getElementById("emailError");
+  const passwordError = document.getElementById("passwordError");
   
   nameError.textContent = "";
   emailError.textContent = "";
